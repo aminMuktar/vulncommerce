@@ -40,7 +40,9 @@ INSTALLED_APPS = [
 
     #local
     'catalog',
-]
+    'cart',
+    'orders',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
