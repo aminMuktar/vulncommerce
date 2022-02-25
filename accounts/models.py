@@ -8,3 +8,4 @@ class UserProfile(Order):
 
     def __str__(self):
         return 'User profile for:'+self.user.email
+
