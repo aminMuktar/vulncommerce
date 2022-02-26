@@ -17,7 +17,7 @@ class Category(models.Model):
 
     class Meta:
         db_table='categories'
-        ordering=['-created_at']
+        ordering=['created_at']
         verbose_name_plural='Categories'
     
     def __str__(self):
@@ -48,7 +48,7 @@ class Product(models.Model):
 
     class Meta:
         db_table='products'
-        ordering=['-created_at']
+        ordering=['created_at']
     
     def __str__(self):
         return self.name
